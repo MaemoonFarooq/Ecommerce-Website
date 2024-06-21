@@ -1,0 +1,37 @@
+/* Navbar.css */
+
+/* Style for the main navigation bar */
+.secondnavbar {
+    background-color:#000000; /* Orange background color */
+    position: fixed;
+    top: 0;
+   
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+    
+  }
+
+  
+  
+  /* Style for the navigation bar buttons */
+  .secondnavbar a {
+    background-color:#000000;
+    margin-left: 80px;
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:solid;
+    font-weight: bolder;
+  }
+
+  
+  /* Style for the navigation bar buttons on hover */
+  .secondnavbar a:hover {
+    background-color: #fff; /* white on hover */
+    color:#ff6600;
+  }
+  

@@ -1,0 +1,31 @@
+/* ContactInfo.css */
+
+.contact-info {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px; /* Add margin to separate it from the form */
+  }
+  
+  .contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .info-details {
+    display: flex;
+    flex-direction: row; /* Arrange the content horizontally */
+    justify-content: flex-start; /* Align the content to the left */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .contact-info p,
+  .contact-info ul {
+    margin: 0; /* Remove default margin for paragraphs and lists */
+    padding: 0; /* Remove default padding for paragraphs and lists */
+    list-style: none; /* Remove list bullets */
+    display: inline; /* Display elements inline */
+    margin-right: 20px; /* Add spacing between elements */
+  }
+  

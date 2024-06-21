@@ -1,0 +1,27 @@
+.contact {
+    padding-left: 800px;
+    padding-top: 200px;
+    margin-top: 30px;
+    background-image: url('https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with the actual path to your image */
+    background-size:cover; /* Adjust background image size */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+    min-height: 95vh; /* Set a minimum height to fill the viewport */
+    min-width: 205vh;
+    margin-left: -20px;
+    color: white; /* Text color for content on top of the background image */
+    
+    /* Add any other styling as needed */
+  }
+
+  .horizontal-block {
+    margin-right: 50px;
+    margin-left: -270px;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 0px;
+    margin-top: 20px; /* Add margin as needed */
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    align-items: center; /* Center content vertically */
+  }

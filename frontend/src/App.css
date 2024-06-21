@@ -1,0 +1,52 @@
+/* App.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .logo {
+    padding-top: 60px;
+    animation: slideFromLeft 1.5s ease-in-out forwards;
+  }
+  
+  .website-title {
+    padding-top: 60px;
+    padding-left: 200px;
+    font-size: 30px;
+    color:#3b3939;
+    font-weight: bold;
+    margin: -20px;
+    margin-left: -100%;
+    animation: slideFromLeft 1.5s ease-in-out forwards;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .tagline{
+    font-size: x-small;
+    padding-right: 190px;
+    color:  #ff6600;
+    animation: slideFromLeft 1.5s ease-in-out forwards;
+  }
+  
+  
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
